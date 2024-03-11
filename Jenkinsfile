@@ -7,7 +7,7 @@ pipeline {
       steps {
         build 'PES1UG21CS337-1'
         sh 'g++ hello2.cpp -o hello2'
-        intentional error
+        // intentional error
       }
     }
     stage('Test') {
